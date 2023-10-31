@@ -21,9 +21,9 @@ namespace Ejercicio_Herencia
             if (validar())
             {
                 Console.WriteLine("Nombre: " + nombre);
-                Console.WriteLine("Nombre: " + color);
-                Console.WriteLine("Nombre: " + tamano);
-                Console.WriteLine("Nombre: " + familia);
+                Console.WriteLine("Color: " + color);
+                Console.WriteLine("Tamano: " + tamano);
+                Console.WriteLine("Familia: " + familia);
             }
         }
 

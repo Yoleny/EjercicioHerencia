@@ -1,6 +1,8 @@
 ﻿using Ejercicio_Herencia;
 using Ejercicio_Herncia;
 
+Console.WriteLine("********************animales vertebrados********************");
+Console.WriteLine("");
 Vertebrado vertebrado = new Vertebrado();
 vertebrado.nombre = "Perro";
 vertebrado.color = "Blanco";
@@ -21,8 +23,9 @@ if (vertebrado.validar())
 else
 {
     Console.WriteLine("ingrese todos los datos");
-}
 
+}
+Console.WriteLine("");
 
 vertebrado.nombre = "Oso";
 vertebrado.color = "Negro";
@@ -44,7 +47,9 @@ else
 {
     Console.WriteLine("ingrese todos los datos");
 }
-
+Console.WriteLine("");
+Console.WriteLine("********************animales invertebrados********************");
+Console.WriteLine("");
 
 Invertebrado invertebrado = new Invertebrado();
 
@@ -68,12 +73,14 @@ else
     Console.WriteLine("ingrese todos los datos");
 }
 
+Console.WriteLine("");
+
 
 invertebrado.nombre = "Caracol";
 invertebrado.color = "Blanco";
 invertebrado.tamano = "Pequeno";
 invertebrado.familia = "Helicidios";
-invertebrado.tipo = "Hekix pomatia";
+invertebrado.tipo = "Helix pomatia";
 invertebrado.tienePatas = false;
 invertebrado.numeroPatas = "no tiene patas";
 invertebrado.tieneConcha = true;
